@@ -1,0 +1,19 @@
+# One entry per empirical application.
+# When ready, fill in:
+#   slides: file name inside the slides/ folder   (e.g. A1_Cholesky_VAR_application.pdf)
+#   code:   path of the code folder or zip         (e.g. code/A1_Cholesky_VAR.zip)
+# Leave a field empty to show "coming soon".
+- title: Cholesky VAR
+  summary: Recursive identification in practice.
+  slides:
+  code:
+
+- title: Sign restriction VAR
+  summary: Set identification with sign restrictions in practice.
+  slides:
+  code:
+
+- title: VAR counterfactuals
+  summary: Policy counterfactuals in practice.
+  slides:
+  code:

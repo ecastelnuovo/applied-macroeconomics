@@ -1,0 +1,32 @@
+# One entry per lecture. "pdf" is the file name inside the slides/ folder.
+- title: Reduced-form VARs
+  summary: Specification, lag selection and truncation bias, stationarity, breaks, informational sufficiency, FAVARs.
+  pdf: 01_Reduced_form_VAR.pdf
+
+- title: "Priors for VARs: a primer"
+  summary: Minnesota, sum-of-coefficients and single-unit-root priors; hierarchical priors; priors for the long run; an application to a monetary VAR.
+  pdf: 02_Priors_VAR.pdf
+
+- title: Cholesky VARs
+  summary: Recursive identification, IRFs, FEVDs, historical decompositions, internal-instrument VARs and LP-IV.
+  pdf: 03_Cholesky_VAR.pdf
+
+- title: Sign restrictions
+  summary: Set identification, rotations, a bivariate example, monetary policy shocks.
+  pdf: 04_Sign_restrictions_VAR.pdf
+
+- title: Refinements to sign restrictions
+  summary: Narrative restrictions, policy coefficient restrictions, the penalty function approach, ratio restrictions.
+  pdf: 05_Refinements_sign_restrictions_VAR.pdf
+
+- title: Counterfactuals
+  summary: Policy counterfactuals in VARs and the Lucas critique.
+  pdf: 06_Counterfactuals_VAR.pdf
+
+- title: "Local projections or VARs? It's all in the lags"
+  summary: The bias-variance trade-off, long-lag VARs, local projections as VARs of increasing order.
+  pdf: 07_Comparison_LP_VAR.pdf
+
+- title: The historical decomposition roller coaster
+  summary: Deterministic components, whimsical historical decompositions, the single-unit-root prior, drivers of post-covid inflation.
+  pdf: 08_Historical_decomposition_rollercoaster_VAR.pdf

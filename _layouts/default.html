@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<header class="wrap hero">
+  <div class="kicker">University of Padova · Master and PhD level</div>
+  <h1>{{ site.title }}</h1>
+  <div class="who"><b>Efrem Castelnuovo</b> · Lecture slides and replication codes</div>
+  <p class="intro">A course on Vector Autoregressions: specification and estimation, Bayesian priors,
+    identification of structural shocks, counterfactuals, local projections, and historical decompositions.</p>
+  <nav class="jump">
+    <a href="#lectures">Lectures</a>
+    <a href="#applications">Empirical applications</a>
+  </nav>
+</header>
+
+<section class="wrap" id="lectures">
+  <h2>Lectures</h2>
+  <div class="grid">
+    {% for l in site.data.lectures %}
+    <article class="card">
+      <div class="num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</div>
+      <h3>{{ l.title }}</h3>
+      <p>{{ l.summary }}</p>
+      <div class="act">
+        <a class="btn" href="{{ '/slides/' | append: l.pdf | relative_url }}" target="_blank" rel="noopener">Slides (PDF)</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap" id="applications">
+  <h2>Empirical applications</h2>
+  <p class="lead">Hands-on applications with slides and replication codes.</p>
+  <div class="grid">
+    {% for a in site.data.applications %}
+    <article class="card app">
+      <div class="num">A{{ forloop.index }}</div>
+      <h3>{{ a.title }}</h3>
+      <p>{{ a.summary }}</p>
+      <div class="act">
+        {% if a.slides %}
+          <a class="btn" href="{{ '/slides/' | append: a.slides | relative_url }}" target="_blank" rel="noopener">Slides (PDF)</a>
+        {% else %}
+          <span class="soon">Slides coming soon</span>
+        {% endif %}
+        {% if a.code %}
+          <a class="btn ghost" href="{{ '/' | append: a.code | relative_url }}">Code</a>
+        {% else %}
+          <span class="soon">Code coming soon</span>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<footer class="wrap">
+  <p><b>Licences.</b> Slides: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+     Code: <a href="{{ '/LICENSE.md' | relative_url }}">MIT License</a>.
+     Figures reproduced from published papers are used for teaching purposes, with full attribution,
+     and remain the property of their respective copyright holders; they are not covered by these licences.</p>
+  <p>Comments and corrections are welcome: please open an
+     <a href="https://github.com/ecastelnuovo/applied-macroeconomics/issues">issue on GitHub</a>.
+     · <a href="https://github.com/ecastelnuovo/applied-macroeconomics">Repository</a></p>
+</footer>
+
+</body>
+</html>
