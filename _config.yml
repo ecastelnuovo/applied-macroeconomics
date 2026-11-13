@@ -1,0 +1,5 @@
+title: Empirical Methods in Macroeconomics
+description: Lecture slides and replication codes · Efrem Castelnuovo, University of Padova
+theme: jekyll-theme-minimal
+exclude:
+  - README.md
