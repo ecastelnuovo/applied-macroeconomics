@@ -17,7 +17,8 @@
   <h1>{{ site.title }}</h1>
   <div class="who"><b>Efrem Castelnuovo</b> · Lecture slides and replication codes</div>
   <p class="intro">A course on Vector Autoregressions: specification and estimation, Bayesian priors,
-    identification of structural shocks, counterfactuals, local projections, and historical decompositions.</p>
+    identification of structural shocks (recursive, sign restrictions, external instruments),
+    policy counterfactuals, and local projections.</p>
   <nav class="jump">
     <a href="#lectures">Lectures</a>
     <a href="#applications">Empirical applications</a>
@@ -34,6 +35,7 @@
       <p>{{ l.summary }}</p>
       <div class="act">
         <a class="btn" href="{{ '/slides/' | append: l.pdf | relative_url }}" target="_blank" rel="noopener">Slides (PDF)</a>
+        {% if l.code %}<a class="btn ghost" href="{{ '/' | append: l.code | relative_url }}">Code</a>{% endif %}
       </div>
     </article>
     {% endfor %}
@@ -72,8 +74,8 @@
      Figures reproduced from published papers are used for teaching purposes, with full attribution,
      and remain the property of their respective copyright holders; they are not covered by these licences.</p>
   <p>Comments and corrections are welcome: please open an
-     <a href="https://github.com/ecastelnuovo/applied-macroeconomics/issues">issue on GitHub</a>.
-     · <a href="https://github.com/ecastelnuovo/applied-macroeconomics">Repository</a></p>
+     <a href="{{ site.github.issues_url }}">issue on GitHub</a>.
+     · <a href="{{ site.github.repository_url }}">Repository</a></p>
 </footer>
 
 </body>

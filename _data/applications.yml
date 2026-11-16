@@ -1,19 +1,18 @@
-# One entry per empirical application.
-# When ready, fill in:
-#   slides: file name inside the slides/ folder   (e.g. A1_Cholesky_VAR_application.pdf)
-#   code:   path of the code folder or zip         (e.g. code/A1_Cholesky_VAR.zip)
+# One entry per empirical application, in the order shown on the site (A1, A2, ... is automatic).
+#   slides: file name inside the slides/ folder
+#   code:   path of the code folder or zip (e.g. code/A1_ACEL.zip)
 # Leave a field empty to show "coming soon".
-- title: Cholesky VAR
-  summary: Recursive identification in practice.
-  slides:
+- title: Firm-specific capital, IRF matching, and long-lag VARs
+  summary: A 10-variable SVAR with recursive and long-run restrictions, DSGE estimation by IRF matching (Altig, Christiano, Eichenbaum, Lindé), and what changes with more lags.
+  slides: A1_Cholesky_VAR_IRFs_DSGE_estimation.pdf
   code:
 
-- title: Sign restriction VAR
-  summary: Set identification with sign restrictions in practice.
-  slides:
+- title: "Post-covid inflation: demand or supply?"
+  summary: Sign-restriction SVARs and historical decompositions, the deterministic component and the single-unit-root prior, the role of the policy regime (Giannone and Primiceri; Bergholt et al.).
+  slides: A2_Set_identification_reduced_form_post_covid_inflation.pdf
   code:
 
-- title: VAR counterfactuals
-  summary: Policy counterfactuals in practice.
-  slides:
+- title: Import tariffs and the systematic response of monetary policy
+  summary: A timing-restriction SVAR for tariff shocks and McKay–Wolf policy counterfactuals (Franconi and Hack).
+  slides: A3_Tariffs_monetary_policy.pdf
   code:
