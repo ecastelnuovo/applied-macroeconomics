@@ -5,7 +5,7 @@
 - title: Firm-specific capital, IRF matching, and long-lag VARs
   summary: A 10-variable SVAR with recursive and long-run restrictions, DSGE estimation by IRF matching (Altig, Christiano, Eichenbaum, Lindé), and what changes with more lags.
   slides: A1_Cholesky_VAR_IRFs_DSGE_estimation.pdf
-  code: code/A1_ACEL.zip
+  code: code/A1_ACEL/A1_ACEL.zip
 
 - title: "Post-covid inflation: demand or supply?"
   summary: Sign-restriction SVARs and historical decompositions, the deterministic component and the single-unit-root prior, the role of the policy regime (Giannone and Primiceri; Bergholt et al.).
