@@ -15,4 +15,4 @@
 - title: Import tariffs and the systematic response of monetary policy
   summary: A timing-restriction SVAR for tariff shocks and McKay–Wolf policy counterfactuals (Franconi and Hack).
   slides: A3_Tariffs_monetary_policy.pdf
-  code:
+  code: code/A3_HackFraconi_tarifssmonetarypolicy_compact.zip
