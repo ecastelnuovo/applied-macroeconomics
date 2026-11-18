@@ -10,7 +10,7 @@
 - title: "Post-covid inflation: demand or supply?"
   summary: Sign-restriction SVARs and historical decompositions, the deterministic component and the single-unit-root prior, the role of the policy regime (Giannone and Primiceri; Bergholt et al.).
   slides: A2_Set_identification_reduced_form_post_covid_inflation.pdf
-  code: A2_GiannonePrimiceri_covidinflation.zip
+  code: code/A2_GiannonePrimiceri_covidinflation.zip
 
 - title: Import tariffs and the systematic response of monetary policy
   summary: A timing-restriction SVAR for tariff shocks and McKay–Wolf policy counterfactuals (Franconi and Hack).
