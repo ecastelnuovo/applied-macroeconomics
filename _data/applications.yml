@@ -3,16 +3,16 @@
 #   code:   path of the code folder or zip (e.g. code/A1_ACEL.zip)
 # Leave a field empty to show "coming soon".
 - title: Firm-specific capital, IRF matching, and long-lag VARs
-  summary: A 10-variable SVAR with recursive and long-run restrictions, DSGE estimation by IRF matching (Altig, Christiano, Eichenbaum, Lindé), and what changes with more lags.
+  summary: Estimation of a DSGE model with firm-specific capital via IRF-matching; implications when using a long-lag VAR approach.
   slides: A1_Cholesky_VAR_IRFs_DSGE_estimation.pdf
   code: code/A1_ACEL.zip
 
 - title: "Post-covid inflation: demand or supply?"
-  summary: Sign-restriction SVARs and historical decompositions, the deterministic component and the single-unit-root prior, the role of the policy regime (Giannone and Primiceri; Bergholt et al.).
+  summary: Drivers of post pandemic inflation identified with sign restrictions; role of the deterministic component for historical decomposition. 
   slides: A2_Set_identification_reduced_form_post_covid_inflation.pdf
   code: code/A2_GiannonePrimiceri_covidinflation.zip
 
 - title: Import tariffs and the systematic response of monetary policy
-  summary: A timing-restriction SVAR for tariff shocks and McKay–Wolf policy counterfactuals (Franconi and Hack).
+  summary: A timing-restriction SVAR for tariff shocks and McKay–Wolf policy counterfactuals.
   slides: A3_Tariffs_monetary_policy.pdf
   code: code/A3_HackFranconi_tariffsmonetarypolicy_compact.zip
